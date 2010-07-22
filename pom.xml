@@ -65,6 +65,8 @@
 	        <groupId>org.apache.cassandra</groupId>
 	        <artifactId>cassandra</artifactId>
 	        <version>0.6.3</version>
+			<scope>system</scope>
+	    	<systemPath>/opt/apache-cassandra-0.6.3/lib/apache-cassandra-0.6.3.jar</systemPath>
 	 	</dependency>
 	 	<dependency>
 	        <groupId>log4j</groupId>
@@ -87,16 +89,5 @@
 			<version>r917130</version>
 		</dependency>
     </dependencies>
-
-	<repositories>
-		<repository>
-			<id>stavish-public-repository</id>
-			<name>Publicly available Maven 2 repository by Todd Stavish</name>
-			<url>http://www.stavi.sh/repository/maven2</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 	
 </project>
